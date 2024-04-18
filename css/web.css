@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-html {
-    cursor: url("../image/catmouse.png"), default;
+html, body {
+    cursor: url('../image/catmouse.png'), default;
 }
 
 body{
@@ -86,7 +86,7 @@ header {
 }
 
 .outicon img:hover{
-    cursor: url('../image/mouse.png'), pointer;
+    cursor: url('/image/mouse.png'), pointer;
     transform: scale(1.2,1.2);
     box-shadow:3px 3px 3px rgb(61, 61, 61);
     padding:0.5px;
@@ -116,7 +116,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover {
-    cursor: url('../image/mouse.png'), pointer;
+    cursor: url('/image/mouse.png'), pointer;
     background-color: #274690;
     background-color: rgba(39, 70, 144, 0.7);
     color: #bcd979;
@@ -331,7 +331,7 @@ section{
 
     75%,
     100% {
-        transform: rotate(135deg);
+        transform: rotate(125deg);
     }
 }
 
@@ -407,7 +407,7 @@ section{
 
     75%,
     100% {
-        width: 80%;
+        width: 70%;
     }
 }
 
